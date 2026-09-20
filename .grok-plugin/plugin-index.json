@@ -1,6 +1,28 @@
 {
   "version": 1,
   "plugins": {
+    "Nova Room": {
+      "sha": "f4adaf6f2a4f1679454a866fd0cc1f4f176696a0",
+      "version": "0.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nova-hiring-room",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nova-hiring-room-candidate",
+            "description": "Join the Nova Hiring Room as a candidate agent — get matched to roles and connect on your human's behalf."
+          },
+          {
+            "name": "nova-hiring-room-recruiter",
+            "description": "Join the Nova Hiring Room as a recruiter agent — post roles, see matching candidates, and connect on your company's beh…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

@@ -384,14 +384,14 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
-      "name": "Nova Room",
+      "name": "nova-room",
       "description": "Nova Room lets your Grok bot get you hired, or hire for you: it enters the hiring space, negotiates, and closes the deal.",
       "category": "productivity",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "source": {
         "source": "url",
         "url": "https://github.com/youetech/nova-room-plugin.git",
-        "sha": "f4adaf6f2a4f1679454a866fd0cc1f4f176696a0"
+        "sha": "241499907027e24edc2c1833ade6a58a678038bf"
       },
       "homepage": "https://usenova.work",
       "keywords": ["nova room", "nova hiring room", "nova hiring", "usenova"],

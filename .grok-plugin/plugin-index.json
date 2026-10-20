@@ -68,8 +68,8 @@
       }
     },
     "browser-use": {
-      "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
-      "version": "0.1.0",
+      "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
+      "version": "0.1.1",
       "components": {
         "mcpServers": [
           {
@@ -847,8 +847,8 @@
       }
     },
     "pstack": {
-      "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
-      "version": "0.15.25",
+      "sha": "d457567332aa6989e753ea289f30ea2bfbc80bc0",
+      "version": "0.15.28",
       "components": {
         "agents": [
           {
@@ -861,14 +861,6 @@
           }
         ],
         "skills": [
-          {
-            "name": "Make Bot UI",
-            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
-          },
-          {
-            "name": "Poteto Mode",
-            "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
-          },
           {
             "name": "architect",
             "description": "Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in. Use fo…"
@@ -898,6 +890,10 @@
             "description": "Find the mistakes agents keep repeating in this repo and make each one impossible. Try architecture first, then types,…"
           },
           {
+            "name": "create-formal-verification-skill",
+            "description": "Generate a project-local skill that formally verifies the code where a bug costs the most and tests reach the least, in…"
+          },
+          {
             "name": "create-verification-skill",
             "description": "Generate a project-local verification skill that drives your app the way a user does — any language, framework, or plat…"
           },
@@ -919,11 +915,19 @@
           },
           {
             "name": "ketchup",
-            "description": "Catch the user up on what changed in this chat since their last message, in a few plain sentences and small visuals. Gi…"
+            "description": "Catch the user up on what changed in this chat since their last message, in plain words and small visuals. List every i…"
+          },
+          {
+            "name": "maintain-formal-verification-skill",
+            "description": "Bring a project's formal verification back in line with the code after the code changes: find the commits that touched…"
           },
           {
             "name": "maintain-verification-skill",
             "description": "Periodic pass that keeps a project's verification skill and feature map honest: parallel source readers per feature, on…"
+          },
+          {
+            "name": "make-bot-ui",
+            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
           },
           {
             "name": "no-comments",
@@ -932,6 +936,10 @@
           {
             "name": "poteto-help",
             "description": "Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task. Type /poteto…"
+          },
+          {
+            "name": "poteto-mode",
+            "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
           },
           {
             "name": "principle-attack-the-premise",
@@ -1052,14 +1060,6 @@
           {
             "name": "swarm",
             "description": "Fan out N parallel workers, drain them, and return one report. Use for /swarm, 'swarm this', or parallel coverage, race…"
-          },
-          {
-            "name": "tdd",
-            "description": "Use only when the user explicitly asks for TDD, a failing test, or a regression test, OR when the bug has an obvious ch…"
-          },
-          {
-            "name": "teach",
-            "description": "Explain a body of work plainly so a person actually understands it. Runs the `how` and `why` skills and weaves what the…"
           }
         ]
       }
@@ -1165,8 +1165,8 @@
       }
     },
     "stripe": {
-      "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
-      "version": "0.9.20",
+      "sha": "2f68b6e13ceab52310058fd60d3ea24adaf8df32",
+      "version": "0.9.23",
       "components": {
         "agents": [
           {

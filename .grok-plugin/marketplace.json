@@ -463,13 +463,13 @@
     },
     {
       "name": "nova-room",
-      "description": "Nova Room helps candidate and recruiter agents prepare profiles and roles, assess connections, and negotiate within human-approved authority.",
+      "description": "Nova Room helps candidate and company agents prepare profiles and roles, assess connections, and negotiate within human-approved authority.",
       "category": "productivity",
       "version": "0.0.3",
       "source": {
         "source": "url",
         "url": "https://github.com/youetech/nova-room-plugin.git",
-        "sha": "b5c9852685bba127195aa01aa03068ecec60d57d"
+        "sha": "d8090313582e847e19caa117ebb533fe982e977e"
       },
       "homepage": "https://usenova.work",
       "keywords": [

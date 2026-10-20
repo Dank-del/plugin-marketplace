@@ -754,7 +754,7 @@
       }
     },
     "nova-room": {
-      "sha": "b5c9852685bba127195aa01aa03068ecec60d57d",
+      "sha": "d8090313582e847e19caa117ebb533fe982e977e",
       "version": "0.0.3",
       "components": {
         "mcpServers": [
@@ -769,8 +769,8 @@
             "description": "Represent a candidate in Nova Room through MCP profile setup, discovery, private documents, qualified connections and n…"
           },
           {
-            "name": "nova-hiring-room-recruiter",
-            "description": "Represent a recruiter in Nova Room through MCP role setup, discovery, billing and review gates, pipeline actions and ne…"
+            "name": "nova-hiring-room-company",
+            "description": "Operate as a company agent in Nova Room through MCP role setup, discovery, billing and review gates, pipeline actions a…"
           },
           {
             "name": "nova-interview",

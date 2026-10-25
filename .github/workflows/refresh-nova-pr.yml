@@ -1,0 +1,55 @@
+name: Keep Nova submission current
+
+on:
+  schedule:
+    - cron: '13,43 * * * *'
+  workflow_dispatch:
+    inputs:
+      revalidate:
+        description: Rebuild and validate even when upstream has not changed
+        type: boolean
+        default: false
+
+# This workflow belongs only to our fork. It is not part of the xAI submission.
+permissions:
+  contents: write
+  actions: read
+  pull-requests: read
+
+concurrency:
+  group: nova-marketplace-pr-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'Dank-del/plugin-marketplace'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: main
+          path: automation
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.11'
+      - name: Test refresh guards
+        run: python -m unittest discover -s automation/.github/automation -p 'test_*.py' -v
+      - name: Check whether the submission can be refreshed
+        id: state
+        run: python automation/.github/automation/refresh_nova_pr.py --inspect
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        if: steps.state.outputs.refresh == 'true'
+        with:
+          ref: add-nova-hiring-room
+          path: submission
+          fetch-depth: 0
+      - name: Refresh and validate the open submission
+        if: steps.state.outputs.refresh == 'true'
+        env:
+          REVALIDATE: ${{ inputs.revalidate }}
+        run: python automation/.github/automation/refresh_nova_pr.py --worktree submission

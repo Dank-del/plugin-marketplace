@@ -213,6 +213,27 @@
       "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
+      "name": "nova-room",
+      "description": "Nova Room helps candidate and recruiter agents prepare profiles and roles, assess connections, and negotiate within human-approved authority.",
+      "category": "productivity",
+      "version": "0.0.4",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/youetech/nova-room-plugin.git",
+        "sha": "67bcd6abbf8dd48343324b3d1dd7c65310d5ee81"
+      },
+      "homepage": "https://usenova.work",
+      "keywords": [
+        "nova room",
+        "nova hiring room",
+        "nova hiring",
+        "usenova"
+      ],
+      "domains": [
+        "usenova.work"
+      ]
+    },
+    {
       "name": "octen",
       "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
       "category": "development",
@@ -460,27 +481,6 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
-    },
-    {
-      "name": "nova-room",
-      "description": "Nova Room helps candidate and recruiter agents prepare profiles and roles, assess connections, and negotiate within human-approved authority.",
-      "category": "productivity",
-      "version": "0.0.4",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/youetech/nova-room-plugin.git",
-        "sha": "67bcd6abbf8dd48343324b3d1dd7c65310d5ee81"
-      },
-      "homepage": "https://usenova.work",
-      "keywords": [
-        "nova room",
-        "nova hiring room",
-        "nova hiring",
-        "usenova"
-      ],
-      "domains": [
-        "usenova.work"
-      ]
     },
     {
       "name": "videogen",

@@ -1,6 +1,6 @@
 # Keeping the pending Nova marketplace submission current
 
-The fork's **Keep Nova submission current** workflow runs every 30 minutes and can
+The fork's **Keep Nova submission current** workflow runs every six hours and can
 also be dispatched manually. It maintains xAI PR #814 on `add-nova-hiring-room`.
 The workflow and helper live only on this fork's `main`; they are not shipped in
 the plugin or included in the xAI catalog PR.

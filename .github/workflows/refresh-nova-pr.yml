@@ -2,7 +2,7 @@ name: Keep Nova submission current
 
 on:
   schedule:
-    - cron: '13,43 * * * *'
+    - cron: '13 */6 * * *'
   workflow_dispatch:
     inputs:
       revalidate:

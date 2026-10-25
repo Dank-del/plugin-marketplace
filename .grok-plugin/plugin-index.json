@@ -754,8 +754,8 @@
       }
     },
     "nova-room": {
-      "sha": "67bcd6abbf8dd48343324b3d1dd7c65310d5ee81",
-      "version": "0.0.4",
+      "sha": "36d7cffdfaff248ea7dd7a66e20a2643fd7a894b",
+      "version": "0.0.3",
       "components": {
         "mcpServers": [
           {

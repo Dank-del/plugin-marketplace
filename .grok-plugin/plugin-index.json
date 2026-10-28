@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
-      "version": "1.1.2",
+      "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -13,28 +13,36 @@
         ],
         "skills": [
           {
+            "name": "axiom-agent-created-orgs",
+            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
+          },
+          {
             "name": "axiom-alerting",
             "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
           },
           {
-            "name": "axiom-sre",
-            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
-          },
-          {
-            "name": "building-dashboards",
+            "name": "axiom-building-dashboards",
             "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
           },
           {
-            "name": "controlling-costs",
+            "name": "axiom-controlling-costs",
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
           },
           {
-            "name": "metrics-chart",
+            "name": "axiom-ingest",
+            "description": "Send data to Axiom. Picks an org from ~/.axiom.toml, or provisions a temporary one when none is configured, creates the…"
+          },
+          {
+            "name": "axiom-metrics-chart",
             "description": "Render saved Axiom metrics v2 or v3 JSON as line charts in a terminal or transcript. Uses Unicode/ASCII by default and…"
           },
           {
-            "name": "spl-to-apl",
+            "name": "axiom-spl-to-apl",
             "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
+          },
+          {
+            "name": "axiom-sre",
+            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
           }
         ]
       }
@@ -367,8 +375,8 @@
       }
     },
     "figma": {
-      "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179",
-      "version": "2.2.163",
+      "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6",
+      "version": "2.2.174",
       "components": {
         "mcpServers": [
           {
@@ -809,8 +817,8 @@
       }
     },
     "pstack": {
-      "sha": "519d36aa98955bf680db01bcde5fdfba686dc901",
-      "version": "0.15.34",
+      "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+      "version": "0.15.36",
       "components": {
         "agents": [
           {
@@ -881,7 +889,7 @@
           },
           {
             "name": "ketchup-video",
-            "description": "Catch the user up like /ketchup, with a short silent video of slides for what happened and the waiting calls as text un…"
+            "description": "Catch the user up like /ketchup, with a short subtitled video of slides for what happened and the waiting calls as text…"
           },
           {
             "name": "maintain-formal-verification-skill",
@@ -933,7 +941,7 @@
           },
           {
             "name": "principle-explain-the-number",
-            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
+            "description": "Apply before you measure, and before you trust, report, or act on a number you measured: a speedup, a regression, a thr…"
           },
           {
             "name": "principle-fix-root-causes",
@@ -1127,8 +1135,8 @@
       }
     },
     "stripe": {
-      "sha": "acbfbb292b3d88d209d4511006c2a89a46c11f8e",
-      "version": "0.9.31",
+      "sha": "6780831d12912f6a592f7a94d2bae0dc70eda6bb",
+      "version": "0.9.32",
       "components": {
         "agents": [
           {

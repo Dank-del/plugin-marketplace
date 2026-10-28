@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "001b3a883fddd8170003aa12c236205fb9eecad6"
+        "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179"
+        "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "acbfbb292b3d88d209d4511006c2a89a46c11f8e",
+        "sha": "6780831d12912f6a592f7a94d2bae0dc70eda6bb",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "519d36aa98955bf680db01bcde5fdfba686dc901",
+        "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
